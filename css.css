@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: gold;
+  min-height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: -1;
+}
+.site-logo {
+  display: block;
+  margin: 2rem auto;
+  max-width: 160px;
+  height: auto;
+}
+.floating-card {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+}
